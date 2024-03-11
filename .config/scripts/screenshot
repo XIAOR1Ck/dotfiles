@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#generating a filename
+name=`grimshot save area`
+wl-copy < $name
+mv $name ~/Pictures/screenshots
